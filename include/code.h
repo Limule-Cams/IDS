@@ -25,7 +25,7 @@ typedef enum {
 
 void detecte_auth_root(const char *file);
 void initialise(Sys_data *sd, const char *data);
-void save_Log_admin_();
+void add_log(Sys_data data, const char *file);
 
 
 
